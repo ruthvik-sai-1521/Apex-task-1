@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ruthvik's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Hi, I'm Ruthvik 👋</h1>
+        <p>Aspiring Web Developer | Final Year AIML Student</p>
+      </div>
+    </header>
+
+    <section class="about container">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate student currently in my final year of B.Tech in
+        Artificial Intelligence and Machine Learning. I'm learning web
+        development and exploring how I can build beautiful and functional web
+        applications using HTML, CSS, and JavaScript.
+      </p>
+      <img id="img" src="myImage.jpg" alt="Profile Image" />
+    </section>
+
+    <section class="projects container">
+      <h2>My Projects</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/" target="_blank"
+            >Groundnut Disease Detector</a
+          >
+          – AI model to detect crop diseases.
+        </li>
+        <li>
+          <a href="https://github.com/" target="_blank">React Spreadsheet UI</a>
+          – Internship UI task built using React + Tailwind.
+        </li>
+      </ul>
+    </section>
+
+    <section class="contact container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to connect or collaborate, feel free to reach out!</p>
+      <button onclick="showContactAlert()">Say Hello 👋</button>
+    </section>
+
+    <section class="skills container">
+      <h2>My Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Tailwind CSS</li>
+        <li>Python, Machine Learning</li>
+        <li>Git, GitHub, VS Code</li>
+      </ul>
+    </section>
+
+    <section class="education container">
+      <h2>Education</h2>
+      <p>
+        <strong>B.Tech – Artificial Intelligence & Machine Learning</strong
+        ><br />
+        XYZ Institute of Technology, 2021 – 2025
+      </p>
+    </section>
+
+    <section class="gallery container">
+      <h2>My Gallery</h2>
+      <div class="gallery-images">
+        <img src="FruitVegProject.png" alt="Project 1" />
+        <img src="GnCropDProject.png" alt="Project 2" />
+        <img src="portfolioProject.png" alt="Project 3" />
+      </div>
+    </section>
+
+    <section class="theme-toggle container">
+      <h2>Customize Theme</h2>
+      <button onclick="toggleTheme()">Toggle Light/Dark Mode</button>
+    </section>
+
+    <button id="scrollTopBtn" onclick="scrollToTop()">⬆ Scroll to Top</button>
+
+    <footer>
+      <p>&copy; 2025 Ruthvik Sai | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
